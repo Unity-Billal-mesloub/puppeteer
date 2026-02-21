@@ -2,6 +2,69 @@
 
 Combined changelog for puppeteer and puppeteer-core.
 
+## [24.37.5](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.4...puppeteer-v24.37.5) (2026-02-19)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * puppeteer-core bumped from 24.37.4 to 24.37.5
+
+
+### 🛠️ Fixes
+
+* roll to Chrome 145.0.7632.77 ([#14703](https://github.com/puppeteer/puppeteer/issues/14703)) ([b31215e](https://github.com/puppeteer/puppeteer/commit/b31215eaaa2f48768690600d68b301747696d7bc))
+
+
+## [24.37.4](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.3...puppeteer-v24.37.4) (2026-02-18)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @puppeteer/browsers bumped from 2.12.1 to 2.13.0
+
+
+### 🛠️ Fixes
+
+* **cdp:** add missing .catch(debugError) to void initialize() in onAttachedToTarget ([#14701](https://github.com/puppeteer/puppeteer/issues/14701)) ([b8b1004](https://github.com/puppeteer/puppeteer/commit/b8b1004764fed66f3aac9841da4aa5b001b4b221))
+* roll to Chrome 145.0.7632.76 ([#14684](https://github.com/puppeteer/puppeteer/issues/14684)) ([6624d1d](https://github.com/puppeteer/puppeteer/commit/6624d1dceae3c1ac0778b95e77810dd8c39df7a5))
+* roll to Firefox 147.0.4 ([#14697](https://github.com/puppeteer/puppeteer/issues/14697)) ([eed313f](https://github.com/puppeteer/puppeteer/commit/eed313fc67d4e3b5c9b9440acb5b3262dac5e679))
+
+
+## [24.37.3](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.2...puppeteer-v24.37.3) (2026-02-13)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @puppeteer/browsers bumped from 2.12.0 to 2.12.1
+
+
+### 🛠️ Fixes
+
+* do not resolve user data dir if it is absolute ([#14680](https://github.com/puppeteer/puppeteer/issues/14680)) ([7765ae7](https://github.com/puppeteer/puppeteer/commit/7765ae7d532634a919ca146b742b4a863e3366e9))
+* roll to Chrome 145.0.7632.67 ([#14679](https://github.com/puppeteer/puppeteer/issues/14679)) ([dfc22dd](https://github.com/puppeteer/puppeteer/commit/dfc22dd4361f57a90cb653499e023c272ab50018))
+
+
 ## [24.37.2](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.1...puppeteer-v24.37.2) (2026-02-06)
 
 

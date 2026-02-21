@@ -1,5 +1,49 @@
 # Changelog
 
+## [24.37.5](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.4...puppeteer-v24.37.5) (2026-02-19)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * puppeteer-core bumped from 24.37.4 to 24.37.5
+
+## [24.37.4](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.3...puppeteer-v24.37.4) (2026-02-18)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @puppeteer/browsers bumped from 2.12.1 to 2.13.0
+    * puppeteer-core bumped from 24.37.3 to 24.37.4
+
+## [24.37.3](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.2...puppeteer-v24.37.3) (2026-02-13)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @puppeteer/browsers bumped from 2.12.0 to 2.12.1
+    * puppeteer-core bumped from 24.37.2 to 24.37.3
+
 ## [24.37.2](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.1...puppeteer-v24.37.2) (2026-02-06)
 
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.13.0](https://github.com/puppeteer/puppeteer/compare/browsers-v2.12.1...browsers-v2.13.0) (2026-02-18)
+
+
+### 🎉 Features
+
+* allow configuring the output of @puppeteer/browsers install ([#14657](https://github.com/puppeteer/puppeteer/issues/14657)) ([1ce908e](https://github.com/puppeteer/puppeteer/commit/1ce908e424aff2e9a04250c26822ff66dedb636b))
+
+## [2.12.1](https://github.com/puppeteer/puppeteer/compare/browsers-v2.12.0...browsers-v2.12.1) (2026-02-13)
+
+
+### 🛠️ Fixes
+
+* **wsl:** check for linux locations first ([#14681](https://github.com/puppeteer/puppeteer/issues/14681)) ([11f01ef](https://github.com/puppeteer/puppeteer/commit/11f01efebcb1b0febfdeb5fb1a4d52f0155732df))
+
 ## [2.12.0](https://github.com/puppeteer/puppeteer/compare/browsers-v2.11.2...browsers-v2.12.0) (2026-02-04)
 
 
