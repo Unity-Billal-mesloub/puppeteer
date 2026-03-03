@@ -92,7 +92,7 @@ const browser = await puppeteer.launch({
 ```
 
 > Context:
-> [issue 3681](https://github.com/puppeteer/puppeteer/issues/3681#issuecomment-447865342).
+> [issue 3681](https://github.com/Unity-Billal-mesloub/puppeteer/issues/3681#issuecomment-447865342).
 
 ## Chrome reports sandbox errors on Windows
 
@@ -222,11 +222,7 @@ yum update nss -y
 <details>
   <summary>Check out discussions</summary>
 
-- [#290](https://github.com/puppeteer/puppeteer/issues/290) - Debian
-  troubleshooting <br/>
-- [#391](https://github.com/puppeteer/puppeteer/issues/391) - CentOS
-  troubleshooting <br/>
-- [#379](https://github.com/puppeteer/puppeteer/issues/379) - Alpine
+- [issues](https://github.com/Unity-Billal-mesloub/puppeteer/issues/) - Debian
   troubleshooting <br/>
 
 </details>
@@ -327,7 +323,7 @@ ENV CHROME_DEVEL_SANDBOX /usr/local/sbin/chrome-devel-sandbox
 
 > 👋 We ran our tests for Puppeteer on Travis CI until v6.0.0 (when we've
 > migrated to GitHub Actions) - see our historical
-> [`.travis.yml` (v5.5.0)](https://github.com/puppeteer/puppeteer/blob/v5.5.0/.travis.yml)
+> [`.travis.yml` (v5.5.0)](https://github.com/Unity-Billal-mesloub/puppeteer/blob/v5.5.0/.travis.yml)
 > for reference.
 
 Tips-n-tricks:
@@ -350,7 +346,7 @@ script:
 
 ## Running Puppeteer on WSL (Windows subsystem for Linux)
 
-See [this thread](https://github.com/puppeteer/puppeteer/issues/1837) with some
+See [this thread](https://github.com/Unity-Billal-mesloub/puppeteer/issues/) with some
 tips specific to WSL. In a nutshell, you need to install missing dependencies by
 either:
 
@@ -401,10 +397,10 @@ Running Puppeteer smoothly on CircleCI requires the following steps:
 
 > 👋 We used [Cirrus Ci](https://cirrus-ci.org/) to run our tests for Puppeteer
 > in a Docker container until v3.0.x - see our historical
-> [`Dockerfile.linux` (v3.0.1)](https://github.com/puppeteer/puppeteer/blob/v3.0.1/.ci/node12/Dockerfile.linux)
+> [`Dockerfile.linux` (v3.0.1)](https://github.com/Unity-Billal-mesloub/puppeteer/blob/v3.0.1/.ci/node12/Dockerfile.linux)
 > for reference. Starting from v16.0.0 we are shipping a Docker image via the
 > GitHub registry. The Dockerfile is located
-> [here](https://github.com/puppeteer/puppeteer/blob/main/docker/Dockerfile) and
+> [here](https://github.com/Unity-Billal-mesloub/puppeteer/blob/main/docker/Dockerfile) and
 > the usage instructions are in the
 > [Integrations &gt; Docker](./guides/docker). The
 > instructions below might be still helpful if you are building your own image.
@@ -485,7 +481,7 @@ Note that Chrome [does not support Alpine out of the box](https://support.google
 > **CAUTION**
 >
 > The current Chromium version in Alpine 3.20 is causing timeout issues with Puppeteer. Downgrading to Alpine 3.19 fixes the issue.
-> See [#11640](https://github.com/puppeteer/puppeteer/issues/11640), [#12637](https://github.com/puppeteer/puppeteer/issues/12637), [#12189](https://github.com/puppeteer/puppeteer/issues/12189)
+> See [#11640](https://github.com/Unity-Billal-mesloub/puppeteer/issues/), [#12637](https://github.com/Unity-Billal-mesloub/puppeteer/issues/), [#12189](https://github.com/Unity-Billal-mesloub/puppeteer/issues/)
 
 You need to find [the newest Chromium package](https://pkgs.alpinelinux.org/package/edge/community/x86_64/chromium),
 then look up the [supported browser version](https://pptr.dev/supported-browsers) for Puppeteer
@@ -495,7 +491,7 @@ and use the coresponding version.
 
 Alpine Chromium version: `100`
 
-Puppeteer: [Puppeteer v13.5.0](https://github.com/puppeteer/puppeteer/releases/tag/v13.5.0)
+Puppeteer: [Puppeteer v13.5.0](https://github.com/Unity-Billal-mesloub/puppeteer/releases/tag/v13.5.0)
 
 Dockerfile:
 
@@ -616,11 +612,6 @@ Seeing weird errors when launching Chrome? Try running your container with
 `docker run --cap-add=SYS_ADMIN` when developing locally. Since the Dockerfile
 adds a `pptr` user as a non-privileged user, it may not have all the necessary
 privileges.
-
-[dumb-init](https://github.com/Yelp/dumb-init) is worth checking out if you're
-experiencing a lot of zombies Chrome processes sticking around. There's special
-treatment for processes with PID=1, which makes it hard to terminate Chrome
-properly in some cases (e.g. in Docker).
 
 ## Running Puppeteer in the cloud
 
