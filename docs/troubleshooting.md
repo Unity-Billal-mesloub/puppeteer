@@ -14,7 +14,7 @@ custom resolver (such as
 [`jest-resolve`](https://www.npmjs.com/package/jest-resolve)). For the former,
 we do not support deprecated versions of Node.js. For the latter, usually
 upgrading the resolver (or its parent module such as `jest`) will work (e.g.
-https://github.com/puppeteer/puppeteer/issues/9121)
+https://github.com/Unity-Billal-mesloub/puppeteer/issues/)
 
 ## `Could not find expected browser locally`
 
